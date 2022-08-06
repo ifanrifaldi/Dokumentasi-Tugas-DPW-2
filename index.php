@@ -27,7 +27,7 @@ class Anjing{
 $anjing = new anjing;
 $anjing->Nama = "Marco";
 $anjing->Jumlah_Kaki = "4";
-$anjing->Bisa_Terbang ="tidak";
+$anjing->Bisa_Terbang ="Tidak";
 $anjing->Suara = "Guk-guk";
 
 echo "Anjing <br>";
@@ -45,11 +45,28 @@ $elang = new Elang;
 $elang->Nama = "Gala";
 $elang->Jumlah_Kaki = "2";
 $elang->Bisa_Terbang ="Ya";
-$elang->Suara = "miiippp";
+$elang->Suara = "Miiippp";
 
 echo "Elang <br>";
 echo "Nama : $elang->Nama <br>";
 echo "Jumlah_kaki : $elang->Jumlah_Kaki <br>";
 echo "Bisa_Terbang : $elang->Bisa_Terbang <br>";
 echo "Suara : $elang->Suara <br>";
+echo "<hr>";
+
+class Angsa{
+    public $nama, $jumlah_kaki, $bisa_terbang, $suara;
+}
+
+$angsa = new angsa;
+$angsa->Nama = "Donald";
+$angsa->Jumlah_Kaki = "2";
+$angsa->Bisa_Terbang ="Tidak";
+$angsa->Suara = "Kwak-kwak";
+
+echo "Angsa <br>";
+echo "Nama : $angsa->Nama <br>";
+echo "Jumlah_Kaki : $angsa->Jumlah_Kaki <br>";
+echo "Bisa_Terbang : $angsa->Bisa_Terbang <br>";
+echo "Suara : $angsa->Suara <br>";
 echo "<hr>";
