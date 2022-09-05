@@ -21,7 +21,7 @@
                         <h1>{{$produk->nama}}</h1>
                         <hr>
                         <p>
-                            {{$produk->harga}} |
+                            {{$produk->harga}}
                             Stok : {{$produk->stok}} | 
                             Berat : {{$produk->berat}} gr
                             Seller : {{$produk->seller->nama}}

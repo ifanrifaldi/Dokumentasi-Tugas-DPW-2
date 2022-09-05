@@ -9,5 +9,9 @@ trait ProdukRelations {
     function seller(){
         return $this->belongsTo(User::class, 'id_user');
     }
+
+    function getHargaAttribute(){
+        return "Rp.".number_format($this->attributes['harga']);
+    }
     
 }
