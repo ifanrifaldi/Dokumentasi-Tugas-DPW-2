@@ -90,7 +90,7 @@
                                 </div>
                                 <h3>{{$produk->nama}}</h3>
                                 <div class="product-price">
-                                    <span>Rp. {{number_format($produk->harga)}}</span>
+                                    <span>{{$produk->harga}}</span>
                                     
                                 </div>
                                 <p>Stok : {{$produk->stok}} <br> Berat : {{$produk->berat}} gr. </p>

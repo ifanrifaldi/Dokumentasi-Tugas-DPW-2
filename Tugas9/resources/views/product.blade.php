@@ -78,7 +78,7 @@
                         <div class="product-info">
                             <h2 class="product-title"><a href="product-details.html">{{$produk->nama}}</a></h2>
                             <div class="product-price">
-                                <span>Rp. {{number_format($produk->harga)}}</span>
+                                <span>{{$produk->harga}}</span>
                             </div>
                         </div>
                     </div>
